@@ -1,6 +1,13 @@
 server:
  port: 8086
 
+ grpc:
+  port: 7270
+  grpc-client:
+   channel-info:
+    - name: 'tb-ocean'
+      port: 7011
+
 spring:
  datasource:
   url: jdbc:mysql://localhost:3306/tb_ocean?useServerPrepStmts=false&useUnicode=true&characterEncoding=UTF-8
