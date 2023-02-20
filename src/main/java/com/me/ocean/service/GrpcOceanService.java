@@ -1,4 +1,4 @@
 package com.me.ocean.service;
 
-public class OceanService {
+public class GrpcOceanService {
 }

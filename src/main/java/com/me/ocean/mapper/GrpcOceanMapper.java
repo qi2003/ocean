@@ -1,6 +1,8 @@
 package com.me.ocean.mapper;
 
-public class OceanMapper {
+
+
+public class GrpcOceanMapper {
 
 
 }

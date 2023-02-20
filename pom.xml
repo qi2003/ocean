@@ -53,6 +53,12 @@
             <scope>runtime</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.bbex.broker</groupId>
+            <artifactId>tb-ocean</artifactId>
+            <version>2.0.13</version>
+        </dependency>
+
         <!--grpc-->
         <dependency>
             <groupId>com.google.protobuf</groupId>
@@ -79,7 +85,11 @@
             <artifactId>bbex-base-common</artifactId>
             <version>${bbex-base-common.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>io.bbex</groupId>
+            <artifactId>bbex-base-grpc</artifactId>
+            <version>${bbex-base-common.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
