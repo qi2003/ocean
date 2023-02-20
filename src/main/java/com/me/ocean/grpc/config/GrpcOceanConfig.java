@@ -9,6 +9,9 @@ import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 
+/**
+ * @author my
+ */
 @Slf4j
 @Component
 public class GrpcOceanConfig {
@@ -19,8 +22,6 @@ public class GrpcOceanConfig {
 
     @Resource
     private IGrpcClientPool pool;
-
-
 
     public TbOceanServiceGrpc.TbOceanServiceBlockingStub tbOceanServiceBlockingStub() {
         Channel channel = pool.borrowChannel(TB_OCEAN_CHANNEL_NAME);
